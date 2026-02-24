@@ -57,7 +57,7 @@ PACKAGES=(
 )
 
 # If you want to install AUR packages, specify them in this variable
-AUR_PACKAGES=(wiiudownloader cemu jdownloader2)
+AUR_PACKAGES=(eden wiiudownloader cemu jdownloader2)
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for
