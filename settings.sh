@@ -53,11 +53,11 @@ PACKAGES=(
 	nano ttf-dejavu ttf-liberation firefox mpv geany pcmanfm
 	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
 	yt-dlp minizip nautilus genymotion jre17-openjdk gnome-themes-extra
- 	ffmpegthumbnailer tmux
+ 	ffmpegthumbnailer tmux jdownloader2 soundconverter mame-tools
 )
 
 # If you want to install AUR packages, specify them in this variable
-AUR_PACKAGES=(faugus-launcher-git)
+AUR_PACKAGES=(cemu)
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for
