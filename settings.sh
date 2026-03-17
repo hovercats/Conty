@@ -48,12 +48,12 @@ PACKAGES=(
 	libretro-gambatte libretro-melonds libretro-mgba libretro-nestopia
 	libretro-parallel-n64 libretro-picodrive libretro-ppsspp
 	libretro-yabause pcsx2-git lsfg-vk-git protonplus umu-launcher
+	eden-git cemu-git
 	# extra
 	nano ttf-dejavu ttf-liberation firefox mpv geany pcmanfm
 	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
 	yt-dlp minizip nautilus genymotion jre17-openjdk gnome-themes-extra
- 	ffmpegthumbnailer tmux soundconverter mame-tools eden-git cemu-git
- 	qt6-multimedia
+ 	ffmpegthumbnailer tmux soundconverter mame-tools qt6-multimedia
 )
 
 # If you want to install AUR packages, specify them in this variable
