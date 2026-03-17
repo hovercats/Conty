@@ -48,7 +48,7 @@ PACKAGES=(
 	libretro-gambatte libretro-melonds libretro-mgba libretro-nestopia
 	libretro-parallel-n64 libretro-picodrive libretro-ppsspp
 	libretro-yabause pcsx2-git lsfg-vk-git protonplus umu-launcher
-	eden-git cemu-git
+	eden-git cemu-git xemu-git
 	# extra
 	nano ttf-dejavu ttf-liberation firefox mpv geany pcmanfm
 	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
