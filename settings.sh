@@ -46,7 +46,7 @@ PACKAGES=(
 	retroarch retroarch-assets-ozone libretro-beetle-psx-hw
 	libretro-blastem libretro-bsnes libretro-dolphin duckstation-gpl
 	libretro-gambatte libretro-melonds libretro-mgba libretro-nestopia
-	libretro-parallel-n64 libretro-picodrive libretro-ppsspp
+	libretro-mupen64plus-next libretro-picodrive libretro-ppsspp
 	libretro-yabause pcsx2-git lsfg-vk-git protonplus umu-launcher
 	eden-git cemu-git xemu-git
 	# extra
