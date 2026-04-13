@@ -42,11 +42,13 @@ PACKAGES=(
 	# gaming
 	lutris python-protobuf steam steamtinkerlaunch
 	retroarch retroarch-assets-ozone libretro-beetle-psx-hw
-	libretro-blastem libretro-bsnes libretro-dolphin duckstation-gpl
-	libretro-gambatte libretro-melonds libretro-mgba libretro-nestopia
+	libretro-fbneo-git libretro-genesis-plus-gx libretro-flycast
+	libretro-bsnes libretro-dolphin libretro-mame libretro-gambatte
+	libretro-melonds libretro-mgba libretro-nestopia
 	libretro-mupen64plus-next libretro-picodrive libretro-ppsspp
-	libretro-yabause pcsx2-git lsfg-vk-git protonplus umu-launcher
-	eden-git cemu-git xemu-git
+	libretro-yabause libretro-play duckstation-gpl
+	pcsx2-git lsfg-vk-git protonplus umu-launcher eden-git
+	cemu-git xemu-git
 	# extra
 	nano ttf-dejavu ttf-liberation firefox mpv geany pcmanfm
 	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
