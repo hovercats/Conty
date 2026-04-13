@@ -39,8 +39,6 @@ PACKAGES=(
 	sdl2-compat lib32-sdl2-compat vkd3d lib32-vkd3d libgphoto2
 	libnm lib32-libnm
 	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
-	# development
-	base-devel git meson mingw-w64-gcc cmake
 	# gaming
 	lutris python-protobuf steam steamtinkerlaunch
 	retroarch retroarch-assets-ozone libretro-beetle-psx-hw
