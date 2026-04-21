@@ -41,7 +41,7 @@ PACKAGES=(
 	# gaming
 	lutris python-protobuf steam steamtinkerlaunch
 	retroarch retroarch-assets-ozone libretro-beetle-psx-hw
-	libretro-fbneo-git libretro-genesis-plus-gx libretro-flycast
+	libretro-genesis-plus-gx libretro-flycast
 	libretro-bsnes libretro-dolphin libretro-mame libretro-gambatte
 	libretro-melonds libretro-mgba libretro-nestopia
 	libretro-mupen64plus-next libretro-picodrive libretro-ppsspp
@@ -56,7 +56,7 @@ PACKAGES=(
 )
 
 # If you want to install AUR packages, specify them in this variable
-AUR_PACKAGES=(wiiudownloader jdownloader2)
+AUR_PACKAGES=(libretro-fbneo-git wiiudownloader jdownloader2)
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for
