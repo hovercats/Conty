@@ -47,7 +47,7 @@ PACKAGES=(
 	libretro-mupen64plus-next libretro-picodrive libretro-ppsspp
 	libretro-yabause libretro-play duckstation-gpl
 	pcsx2-git lsfg-vk-git protonplus umu-launcher eden-git
-	cemu-git xemu-git
+	cemu-git xemu-git dolphin-emu
 	# extra
 	nano ttf-dejavu ttf-liberation firefox mpv geany pcmanfm
 	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
