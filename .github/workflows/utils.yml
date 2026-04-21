@@ -21,7 +21,7 @@ jobs:
           chmod +x create-utils.sh
           pacman -Syu --noconfirm --needed base-devel gawk grep lz4 zstd \
                  curl gcc make autoconf libtool pkgconf libcap fuse2 lzo \
-                 xz zlib findutils openssl jemalloc xxhash boost lz4 xz \
+                 xz zlib findutils openssl jemalloc xxhash boost boost-libs lz4 xz \
                  zstd libarchive libunwind google-glog gtest fmt gflags \
                  double-conversion cmake ruby-ronn libevent libdwarf git \
                  clang libsodium liburing libaio musl kernel-headers-musl utf8cpp \

@@ -16,7 +16,7 @@ script_dir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 build_dwarfs="${build_dwarfs:-false}"
 
 squashfuse_version="0.5.2"
-bwrap_version="0.11.0"
+bwrap_version="0.11.1"
 lz4_version="1.10.0"
 zstd_version="1.5.7"
 squashfs_tools_version="4.6.1"
@@ -164,7 +164,7 @@ fi
 find utils -type f -exec strip --strip-unneeded {} \; 2>/dev/null
 
 init_program_size=50000
-conty_script_size="$(($(stat -c%s "${script_dir}"/conty-start.sh)+2000))"
+conty_script_size="$(($(stat -c%s "${script_dir}"/conty-start.sh)+5000))"
 bash_size="$(stat -c%s utils/bash)"
 
 sed -i "s/#define SCRIPT_SIZE 0/#define SCRIPT_SIZE ${conty_script_size}/g" init.c

@@ -654,8 +654,11 @@ run_bwrap () {
 						 --tmpfs /var \
 						 --tmpfs /run \
 						 --symlink /run /var/run \
-						 --tmpfs /tmp \
-						 --new-session)
+						 --tmpfs /tmp)
+
+		if [ "$(cat /proc/sys/dev/tty/legacy_tiocsti 2>/dev/null)" != 0 ]; then
+			sandbox_params+=(--new-session)
+		fi
 
 		if [ -n "${non_standard_home[*]}" ]; then
 			sandbox_params+=(--dir "${NEW_HOME}")

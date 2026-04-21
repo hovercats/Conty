@@ -18,7 +18,7 @@ PACKAGES=(
 	lib32-vulkan-mesa-layers libva-intel-driver lib32-libva-intel-driver
 	intel-media-driver mesa-utils vulkan-tools libva-utils lib32-mesa-utils
 	# wine
-	wine-staging winetricks-git gallium-nine-git
+	wine-staging winetricks-git
 	freetype2 lib32-freetype2 libxft lib32-libxft
 	flex lib32-flex fluidsynth lib32-fluidsynth
 	libxrandr lib32-libxrandr xorg-xrandr libldap lib32-libldap
@@ -29,8 +29,7 @@ PACKAGES=(
 	lib32-alsa-plugins alsa-lib lib32-alsa-lib gnutls lib32-gnutls
 	giflib lib32-giflib gst-libav gst-plugin-pipewire gst-plugins-ugly
 	gst-plugins-bad gst-plugins-bad-libs gst-plugin-va lsp-plugins-gst
-	gst-plugins-base-libs lib32-gst-plugins-base-libs gst-plugins-base lib32-gst-plugins-base
-	gst-plugins-good lib32-gst-plugins-good gstreamer lib32-gstreamer
+	gst-plugins-base-libs gst-plugins-base gst-plugins-good gstreamer
 	libpng lib32-libpng v4l-utils lib32-v4l-utils
 	libgpg-error lib32-libgpg-error libjpeg-turbo lib32-libjpeg-turbo
 	libgcrypt lib32-libgcrypt ncurses lib32-ncurses ocl-icd lib32-ocl-icd
