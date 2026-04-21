@@ -53,8 +53,7 @@ PACKAGES=(
 	nano ttf-dejavu ttf-liberation firefox mpv geany pcmanfm
 	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
 	yt-dlp minizip nautilus genymotion jre17-openjdk gnome-themes-extra
- 	ffmpegthumbnailer tmux soundconverter mame-tools qt6-multimedia
-	kid3
+ 	ffmpegthumbnailer tmux soundconverter mame-tools kid3
 )
 
 # If you want to install AUR packages, specify them in this variable
